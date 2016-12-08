@@ -10,8 +10,29 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #630;
+  margin: 0;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  width: 100%;
 }
