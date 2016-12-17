@@ -21,14 +21,14 @@ html {
 }
 
 body {
-  background-image: url(../images/here-s-coco.jpg);
+  background-image: url("../images/here-s-coco.jpg");
   background-size: contain;
   background-position: center;
   margin: .5em;
 }
 
 main {
-  margin: 0em;
+  margin: 0;
 }
 
 header {
@@ -52,12 +52,6 @@ figure {
   padding-bottom: .5em;
 }
 
-figure h2 {
-  font-family: "Indie Flower", cursive;
-  color: #fff;
-  margin-bottom: 1.3rem
-}
-
 figure img {
   display: block;
   width: 100%;
@@ -68,10 +62,10 @@ figcaption {
 }
 
 nav a {
-    display: block;
-    padding: .5em .5em;
-    color: #fff;
-    text-decoration: none;
+  display: block;
+  padding: .5em;
+  color: #fff;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -97,19 +91,24 @@ h2 {
 
 }
 
-dt {
-  text-align: left;
-  margin:
+figure h2 {
+  font-family: "Indie Flower", cursive;
+  color: #fff;
+  margin-bottom: 1.3rem;
 }
 
+dt {
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+
+dd {
+  margin-bottom: 1.3rem;
+}
 
 .menu img {
   display: block;
   width: 100%;
-}
-
-.location img {
-
 }
 
 .location p {
@@ -122,11 +121,11 @@ dt {
   width: 100%;
 }
 
-.hours  {
+.hours {
   color: #fff;
 }
 
-.btn{
+.btn {
   background-color: #4d2800;
   display: inline-block;
   color: #fff;
@@ -155,20 +154,20 @@ footer {
   background-color: #630;
   color: #fff;
   text-align: center;
-  padding: 5px
+  padding: 5px;
 }
 
 @media only screen and (min-width: 25em) {
 
   html {
-   font-size: 100%;
-   line-height: 1.3;
- }
+    font-size: 100%;
+    line-height: 1.3;
+  }
 
- h1,
- p {
-   margin: 0 0 1.3rem;
- }
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
 
   nav li {
     text-align: center;
