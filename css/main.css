@@ -12,6 +12,7 @@ html {
   box-sizing: border-box;
   font: normal 100%/1.3 sans-serif;
   font-family: georgia, serif;
+  line-height: 130%;
   background-color: #630;
 }
 
@@ -32,6 +33,7 @@ main {
 
 header {
   padding: .5rem 0;
+  background-color: #4d2600;
 }
 
 header h1 {
@@ -39,19 +41,21 @@ header h1 {
   font-family: "Indie Flower", cursive;
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 1.3rem;
 }
 
 figure {
   margin: 0;
   background-color: #995c00;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding-bottom: .5em;
 }
 
 figure h2 {
   font-family: "Indie Flower", cursive;
-  color: #000;
+  color: #fff;
+  margin-bottom: 1.3rem
 }
 
 figure img {
@@ -79,6 +83,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 1.3rem;
 }
 
 nav li {
@@ -89,7 +94,14 @@ h2 {
   font-family: "Indie Flower", cursive;
   color: #fff;
   font-size: 2rem;
+
 }
+
+dt {
+  text-align: left;
+  margin:
+}
+
 
 .menu img {
   display: block;
@@ -103,6 +115,11 @@ h2 {
 .location p {
   text-align: center;
   color: #fff;
+}
+
+.location img {
+  display: block;
+  width: 100%;
 }
 
 .hours  {
@@ -131,10 +148,30 @@ h2 {
 .about p {
   margin: 2em;
   color: #fff;
+  text-align: center;
 }
 
 footer {
   background-color: #630;
   color: #fff;
   text-align: center;
+  padding: 5px
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+   font-size: 100%;
+   line-height: 1.3;
+ }
+
+ h1,
+ p {
+   margin: 0 0 1.3rem;
+ }
+
+  nav li {
+    text-align: center;
+  }
+
 }
